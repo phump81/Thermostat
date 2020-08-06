@@ -1,0 +1,38 @@
+h1 {text-align: center;}
+
+form {text-align: center;}
+
+body {text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 200px;
+  margin-left: 600px;
+  background-image: url("https://img1.goodfon.com/wallpaper/nbig/4/95/sand-heat-thermometer.jpg");}
+
+section {
+  background-color: lightblue;
+  width: 400px;
+  border: 15px solid blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+#temperature-up {
+  background: orange;
+}
+
+#temperature-down {
+  background: aqua;
+}
+
+#temperature-reset {
+  background: grey;
+}
+
+#powersaving-on {
+  background: lime;
+}
+
+#powersaving-off {
+  background: red;
+}
