@@ -39,7 +39,7 @@ $(document).ready(function() {
   })
 
   function updateTemperature() {
-    $('#temperature').text(thermostat.temp);
+    $('#temperature').text(thermostat.getCurrentTemp());
     $('#temperature').attr('class', thermostat.energyUsage());
   };
 });
